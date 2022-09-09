@@ -1,0 +1,83 @@
+/*azzeramento margini e controllo delle dimensioni*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*sfondo*/
+body{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgb(58, 57, 57);
+    height: 100vh;
+}
+
+.quadro {
+    margin: 5vh 20vh 15vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    border-radius: 25px;
+}
+
+.intestazione {
+    margin-top: 30px;
+}
+
+/*per centrare l'immagine ho usato una classe, nel caso dovesse servire in un altro momento*/
+.centrato {
+    display: block;
+    margin: auto;
+    width: 220px;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #00DD00;
+    text-align: center;
+}
+
+.menu {
+    background-color: #00DD00;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 4px;
+    margin-left: 5px;
+    white-space: nowrap;
+    overflow:clip;
+}
+
+.sezioni {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-top: 15px;
+}
+
+.carica_bassa {
+    height: 25px;
+    width: 15%;
+    background-color: #BE4141;
+    border-radius: 5px;
+}
+
+.carica_media {
+    height: 25px;
+    width: 40%;
+    background-color: #F5B453;
+    border-radius: 5px;
+}
+
+.carica_piena {
+    height: 25px;
+    width: 65%;
+    background-color: #1EC31E;
+    border-radius: 5px;
+}
